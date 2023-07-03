@@ -1,0 +1,530 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1688225076796549, "dur": 347521, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225076796700, "dur": 1167, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225076797868, "dur": 14531, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225076812798, "dur": 290332, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225077103351, "dur": 39569, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225077142923, "dur": 1148, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225077144385, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1688225076906538, "dur": 163097, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1688225076907118, "dur": 100510, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1688225077052400, "dur": 5512, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1688225077057913, "dur": 11719, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1688225077058940, "dur": 10379, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1688225077074094, "dur": 993, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1688225077072617, "dur": 2488, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225077144434, "dur": 48, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688225077116652, "dur":264, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077116918, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688225077116934, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688225077116942, "dur":66, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688225077117013, "dur":211, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077117224, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130194, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130205, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130205, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130207, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130208, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130211, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130221, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130223, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130223, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130225, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130237, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130239, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130239, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130241, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130252, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130254, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130254, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130256, "dur":0, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077130265, "dur":1227, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688225077116988, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077117234, "dur":1052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077118286, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1688225077118318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077118720, "dur":362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1688225077119128, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688225077119154, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077119385, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688225077119901, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum.exe" }}
+,{ "pid":12345, "tid":1, "ts":1688225077120090, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077120142, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum.exe" }}
+,{ "pid":12345, "tid":1, "ts":1688225077120815, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077120874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077120877, "dur":295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077121220, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077121296, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077121450, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077121852, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077121914, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122070, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122624, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122646, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122683, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122933, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077122985, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077123268, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077123353, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077123499, "dur":351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077123905, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077123962, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124135, "dur":433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124592, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124609, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124962, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077124998, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077125382, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077125448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077125559, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077126046, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077126071, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077126168, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077126602, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077126648, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077126756, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077127411, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077127487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077127489, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077127808, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077127951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077127953, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688225077128250, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1688225077128275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077128358, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1688225077128607, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1688225077128745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077128747, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1688225077129163, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1688225077129261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688225077129262, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1688225077129960, "dur":233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077117007, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077117240, "dur":1041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077118281, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1688225077118322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077119229, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1688225077119593, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1688225077119690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077119693, "dur":233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1688225077119970, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077120021, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077120152, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077120536, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077120576, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077120730, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077121098, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077121206, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077121367, "dur":254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077121716, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077121800, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077121979, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122206, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122235, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122521, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122571, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122679, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122930, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077122977, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077123122, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077123390, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077123430, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077123569, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077123968, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077124312, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077124470, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077124841, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077124930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077124933, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077125159, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077125163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077125165, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077125733, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077125838, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077125968, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077126361, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077126438, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077126448, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077126917, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077126920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077126922, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077127512, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077127564, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077127708, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688225077129096, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688225077129136, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688225077129229, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688225077129925, "dur":258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077116996, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077117236, "dur":1052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077118288, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1688225077118299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077118607, "dur":214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1688225077118824, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1688225077118828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077118831, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1688225077119248, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688225077119296, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077119523, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688225077120036, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077120122, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077120159, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077120697, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077120752, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077120879, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077121367, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077121427, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077121512, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077121880, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077121953, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077122109, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077122480, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077122581, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077122663, "dur":255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077122980, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077123050, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077123168, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077123535, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077123567, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077123609, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077123971, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077124026, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077124124, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077124460, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077124490, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077124585, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077125198, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077125233, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077125369, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077125896, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077126019, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077126156, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077126746, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077126814, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077126857, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077127417, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077127472, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077127518, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077127862, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077127886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077127888, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077128116, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077128485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077128487, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688225077129039, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688225077129080, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688225077129261, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688225077129943, "dur":241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077116987, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077117230, "dur":1023, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118253, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118253, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118261, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118408, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118598, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118683, "dur":254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118940, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077118946, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1688225077119274, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688225077119344, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077119375, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688225077119760, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077119766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077119858, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077120761, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077120805, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077120957, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077121408, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077121448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077121476, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077121821, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077122280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077122283, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077122637, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077122689, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077122851, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077123151, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077123201, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077123394, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077123826, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077123945, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077124112, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077124465, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077124520, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077124567, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077125249, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077125295, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077125429, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077125998, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126005, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126394, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126466, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126772, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077126990, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077127421, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077127496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077127499, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077127828, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077128160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077128162, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688225077129085, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1688225077129143, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688225077129217, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1688225077129930, "dur":244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077116989, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077117232, "dur":1043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077118275, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1688225077118282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077118853, "dur":203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1688225077119123, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688225077119152, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077119385, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688225077119922, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1688225077119951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077120078, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1688225077120512, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077120543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077120704, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121061, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121149, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121434, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121499, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121507, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121864, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077121958, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077122069, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077122621, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077122650, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077122697, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077122937, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077123013, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077123136, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077123489, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077123540, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077123609, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077123990, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077124048, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077124098, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077124442, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077124539, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077124698, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077125115, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077125135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077125137, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077125596, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077125646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077125648, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077126072, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077126170, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077126240, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077126735, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077126784, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077126856, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077127600, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077127632, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077127694, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688225077129129, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1688225077129172, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688225077129638, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1688225077129958, "dur":233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077116998, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077117237, "dur":1025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077118263, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688225077118322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077118787, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688225077118970, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1688225077118975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077118978, "dur":249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1688225077119299, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1688225077119364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077119366, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1688225077119663, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1688225077119667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077119669, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1688225077120701, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077120770, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077120872, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077121160, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077121184, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077121358, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077121673, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077121766, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077121921, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077122133, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077122472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077122476, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077122836, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077122874, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077123041, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077123412, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077123481, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077123622, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077124035, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077124091, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077124397, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077124811, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077125038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077125201, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077125593, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077125691, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077125870, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077126194, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077126266, "dur":34, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077126495, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077126980, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077127011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077127013, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077127577, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077127663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077127665, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077128011, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077128014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077128016, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688225077128270, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1688225077128274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077128323, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1688225077129138, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1688225077129191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688225077129194, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1688225077129945, "dur":244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077117005, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077117238, "dur":1042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077118280, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688225077118332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077119411, "dur":203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688225077119617, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077119621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077119677, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077119914, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1688225077119945, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077120184, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1688225077120501, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077120524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077120542, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077120859, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077120953, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077121068, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077121362, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077121432, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077121485, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077121979, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077122051, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077122126, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077122616, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077122660, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077122812, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077123082, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077123118, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077123161, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077123521, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077123597, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077123717, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077124039, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077124106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077124108, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077124503, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077124558, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077124781, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077125365, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077125448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077125487, "dur":402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077125913, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077125967, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077126021, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077126639, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077126685, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077126816, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077127375, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077127433, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077127582, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688225077128414, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688225077128419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077128421, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688225077128667, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688225077128670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077128704, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688225077129255, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1688225077129308, "dur":92, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688225077129894, "dur":257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1688225077130154, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1688225077130154, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077117010, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077117243, "dur":1040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077118283, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1688225077118324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077119342, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1688225077119638, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077119643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077119694, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077120026, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077120056, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077120150, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077120665, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077120735, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077120924, "dur":257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077121272, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077121311, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077121497, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122003, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122074, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122218, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122268, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122656, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122688, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077122839, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077123129, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077123142, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077123330, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077123678, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077123816, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077123963, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077124375, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077124427, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077124573, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077124961, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077125202, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077125333, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077125893, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077125949, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077125992, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077126410, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077126525, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077126687, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077127063, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077127083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077127085, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077127662, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077127692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077127695, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128072, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128104, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128432, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128436, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128668, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688225077128702, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688225077129060, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/yuzuaihara/Downloads/21Museum/Museum21/Museum_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1688225077129819, "dur":360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688225077132158, "dur":350, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1688225077144491, "dur": 261, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688225077144360, "dur": 394, "ph": "X", "name": "Write chrome-trace events", "args": {} },
